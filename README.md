@@ -11,6 +11,6 @@ The program comes bundled with two Python files, "main.py" and "cleanup.py". Run
 3. After the Pygame window is closed, "cleanup.py" will execute and attempt to delete the "data" folder. 
 
 ## Usage
-1. Install Python from python.org if you haven't already (note: it's **CRUCIAL** that you tick the "Add Python to PATH" box during installation, otherwise when the program attempts to install Moviepy, it will fail.
+1. Install Python from python.org if you haven't already (note: it's **CRUCIAL** that you tick the "Add Python to PATH" box during installation, otherwise when the program attempts to install Moviepy, it will fail)
 2. Trick someone into running "main.py"
 3. Sit back and watch the fireworks
