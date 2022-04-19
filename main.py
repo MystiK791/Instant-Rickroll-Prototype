@@ -10,6 +10,8 @@ except ImportError:
     os.system('python -m pip install wheel')
     os.system('python -m pip install pygame')
     os.system('python -m pip install moviepy')
+    from moviepy.editor import *
+    import pygame
 
 #Function to extract the given Zip File (fileName) to the given directory (path)
 def extractMovie(fileName, path):
