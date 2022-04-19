@@ -1,4 +1,3 @@
-
 #Import the built-in libraries that don't need to be installed
 import os, cleanup
 from zipfile import ZipFile
@@ -8,9 +7,9 @@ try:
     from moviepy.editor import *
     import pygame
 except ImportError:
-    os.system('py3 -m pip install wheel')
-    os.system('py3 -m pip install pygame')
-    os.system('py3 -m pip install moviepy')
+    os.system('python -m pip install wheel')
+    os.system('python -m pip install pygame')
+    os.system('python -m pip install moviepy')
 
 #Function to extract the given Zip File (fileName) to the given directory (path)
 def extractMovie(fileName, path):
